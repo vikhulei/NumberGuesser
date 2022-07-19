@@ -8,7 +8,7 @@ namespace NumberGuesser
         {
             while (true) {
 
-            Console.WriteLine("Hello. In this game you need to guess the number between 1 and 10. Please type your answer:");
+            Console.WriteLine("Hello. In this game you need to guess the number between 1 and 10. Please enter your number:");
 
                 int guess = 0;
 
@@ -37,7 +37,7 @@ namespace NumberGuesser
 
                 ChangeConsoleColor(ConsoleColor.Green, "Correct, well done!");
 
-                Console.WriteLine("Do you want to play again?");
+                Console.WriteLine("Do you want to play again (Y/N)?");
 
                 string question = Console.ReadLine().ToUpper();
 
